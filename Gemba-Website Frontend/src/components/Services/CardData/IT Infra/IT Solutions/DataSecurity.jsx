@@ -14,64 +14,64 @@ const DataSecurity = () => {
       <div className="md:w-1/2 space-y-4">
         <h2 className="text-2xl font-semibold text-gray-800">DATA SECURITY</h2>
         <p className="text-gray-600">
-          We provide comprehensive computing and server storage solutions designed to streamline data management and maximize performance.
+        We offer robust data security solutions to safeguard sensitive information, ensuring privacy and compliance with global standards.
         </p>
 
         {/* Accordion Section */}
         <div className="space-y-2">
           <div className="border rounded-md overflow-hidden">
             <button
-              onClick={() => toggleSection("scalability")}
+              onClick={() => toggleSection("Confidentiality")}
               className="w-full text-left px-4 py-2 bg-gray-200 text-gray-800 flex justify-between items-center"
             >
-              <span>Scalability</span>
-              <span>{openSection === "scalability" ? "-" : "+"}</span>
+              <span>Confidentiality</span>
+              <span>{openSection === "Confidentiality" ? "-" : "+"}</span>
             </button>
             <div
               className={`overflow-hidden transition-all duration-700 ease-in-out ${
-                openSection === "scalability" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
+                openSection === "Confidentiality" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
               <div className="text-gray-600 bg-gray-50">
-                Our computing and server storage solutions are designed with scalability in mind, allowing your infrastructure to grow alongside your business. This ensures you always have the capacity to meet evolving demands with ease.
+              We implement advanced encryption protocols to keep your data private and secure from unauthorized access.
               </div>
             </div>
           </div>
 
           <div className="border rounded-md overflow-hidden">
             <button
-              onClick={() => toggleSection("reliability")}
+              onClick={() => toggleSection("Integrity")}
               className="w-full text-left px-4 py-2 bg-gray-200 text-gray-800 flex justify-between items-center"
             >
-              <span>Reliability</span>
-              <span>{openSection === "reliability" ? "-" : "+"}</span>
+              <span>Integrity</span>
+              <span>{openSection === "Integrity" ? "-" : "+"}</span>
             </button>
             <div
               className={`overflow-hidden transition-all duration-700 ease-in-out ${
-                openSection === "reliability" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
+                openSection === "Integrity" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
               <div className="text-gray-600 bg-gray-50">
-                Our solutions are designed for maximum reliability, featuring redundant systems that ensure minimal downtime and safeguard against data loss.
+              Our measures ensure that your data remains accurate and consistent, free from tampering or corruption.
               </div>
             </div>
           </div>
 
           <div className="border rounded-md overflow-hidden">
             <button
-              onClick={() => toggleSection("security")}
+              onClick={() => toggleSection("Availability")}
               className="w-full text-left px-4 py-2 bg-gray-200 text-gray-800 flex justify-between items-center"
             >
-              <span>Security</span>
-              <span>{openSection === "security" ? "-" : "+"}</span>
+              <span>Availability</span>
+              <span>{openSection === "Availability" ? "-" : "+"}</span>
             </button>
             <div
               className={`overflow-hidden transition-all duration-700 ease-in-out ${
-                openSection === "security" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
+                openSection === "Availability" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
               <div className="text-gray-600 bg-gray-50">
-                We recognize the critical importance of data security and provide robust features to defend against unauthorized access, hacking, and evolving cyber threats.
+              With reliable access controls, regular backups, and fail-safe systems, your data is always available when you need it.
               </div>
             </div>
           </div>

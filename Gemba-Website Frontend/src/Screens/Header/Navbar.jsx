@@ -49,11 +49,11 @@ const Navbar = () => {
 
               {/* Phone Number Tab */}
               <a
-                href="tel:+91-172-4659657"
+                href="tel:+91-172-3507405"
                 className="flex items-center hover:text-gray-400"
               >
                 <FaPhoneAlt className="text-md" /> {/* Icon for Phone */}
-                <span className="hidden md:inline ml-1">+91-172-4659657</span>
+                <span className="hidden md:inline ml-1">+91-172-3507405</span>
               </a>
 
               {/* Email Tab */}
@@ -97,7 +97,7 @@ const Navbar = () => {
                 onClick={toggleMenu}
                 className="text-2xl focus:outline-none"
               >
-                {menuOpen ? <FaTimes /> : <FaBars />}{" "}
+                {menuOpen ? <FaTimes /> : <FaBars />}
                 {/* Toggle between hamburger and close icon */}
               </button>
             </div>

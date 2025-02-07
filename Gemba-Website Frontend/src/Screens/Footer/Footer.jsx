@@ -41,7 +41,7 @@ const Footer = () => {
           <span className="mr-1">
             <FaPhoneAlt />
           </span>
-          +91-172-4659657
+          +91-172-3507405
         </p>
         <p className="flex items-start mt-2">
           <span className="mr-1">

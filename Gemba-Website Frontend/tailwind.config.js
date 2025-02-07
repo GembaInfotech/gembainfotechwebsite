@@ -36,8 +36,8 @@ module.exports = {
         },
       },
       animation: {
-        slideInLeft: 'slideInLeft 2s ease-in-out forwards',
-        slideInRight: 'slideInRight 2s ease-in-out forwards',
+        slideInLeft: 'slideInLeft 1.5s ease-in-out forwards',
+        slideInRight: 'slideInRight 1.5s ease-in-out forwards',
         slideUp: 'slideUp 0.3s ease-in-out forwards',
       },
     },

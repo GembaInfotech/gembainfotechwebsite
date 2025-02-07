@@ -156,16 +156,16 @@ const Career = () => {
             <div>
               <h3 className="text-xl font-semibold">Get in touch instantly</h3>
               <p className="space-y-2 mt-2 text-gray-600 flex flex-col">
-                <a href="tel:+91-172-4659657">
+                <a href="tel:+91-172-3507405">
                   <span role="img" aria-label="Phone">
                     📞
-                  </span>{" "}
+                  </span>
                   Call us
                 </a>
                 <a href="mailto: sales-team@gembainfotech.com">
                   <span role="img" aria-label="Email">
                     ✉️
-                  </span>{" "}
+                  </span>
                   Email us
                 </a>
               </p>

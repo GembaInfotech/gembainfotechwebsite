@@ -36,7 +36,7 @@ const About = () => {
             </h1>
             <br />
             <p className="text-gray-700 ">
-              <strong>Gemba®</strong> is a full IT Service Provider, offering
+              <strong>GembaInfotech®</strong> is a full IT Service Provider, offering
               organizations the technology, content, and expertise for featuring
               comprehensive IT and Business Services through AI and Machine
               Learning, automation, and advanced Analytics for

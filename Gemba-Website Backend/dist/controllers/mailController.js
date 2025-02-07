@@ -15,7 +15,7 @@ var sendEmail = /*#__PURE__*/function () {
       while (1) switch (_context.prev = _context.next) {
         case 0:
           fullName = contactData.fullName, email = contactData.email, phoneNumber = contactData.phoneNumber, company = contactData.company, service_type = contactData.service_type, request_description = contactData.request_description, fileName = contactData.fileName; // Path to the uploaded file
-          filePath = fileName ? path.join(__dirname, "../uploads", fileName) : null; // Create a transporter
+          filePath = fileName ? path.join(__dirname, "../../uploads", fileName) : null; // Create a transporter
           transporter = nodemailer.createTransport({
             service: "gmail",
             auth: {
